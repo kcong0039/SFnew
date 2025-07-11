@@ -1,7 +1,7 @@
 // frontend/src/lib/api.js
 
 export async function fetchScanResult(orderNumber) {
-  const response = await fetch(`http://localhost:8000/api/scan-result/`, {
+  const response = await fetch(`/api/scan-result/`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
